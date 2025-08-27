@@ -1,0 +1,9 @@
+apiVersion: v2
+description: Control and manage Android devices from your browser
+name: openstf
+version: 1.0.0
+kubeVersion: ">=1.33.0"
+icon: https://raw.githubusercontent.com/openstf/stf/master/res/app/logo/logo.png
+keywords:
+ - OpenSTF
+ - Android

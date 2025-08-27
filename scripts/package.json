@@ -1,0 +1,23 @@
+{
+  "name": "android-farm-scripts",
+  "version": "1.0.0",
+  "description": "Utility scripts for Android Farm OpenSTF deployment",
+  "main": "clean-offline-x86.js",
+  "scripts": {
+    "clean": "node clean-offline-x86.js"
+  },
+  "dependencies": {
+    "rethinkdb": "^2.4.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "openstf",
+    "android",
+    "rethinkdb",
+    "cleanup"
+  ],
+  "author": "Android Farm Team",
+  "license": "Apache-2.0"
+}
